@@ -15,11 +15,16 @@
   "scripts": {
     "build": "pnpm -C $slide build",
     "dev": "pnpm -C $slide dev",
-    "export": "pnpm -C $slide export"
+    "export": "pnpm -C $slide export",
+    "predeploy:pages": "pnpm -C $slide build",
+    "deploy": "pnpm -C $slide deploy"
   },
   "dependencies": {
     "@slidev/cli": "^0.44.0",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.17.1"
   }
 }

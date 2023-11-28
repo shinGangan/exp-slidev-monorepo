@@ -5,3 +5,6 @@
 index.html
 .remote-assets
 components.d.ts
+
+# Cloudflare 
+**/.wrangler/**/*
