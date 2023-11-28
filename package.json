@@ -1,0 +1,25 @@
+{
+  "name": "@shinGangan/exp-slidev-monorepo",
+  "description": "",
+  "version": "0.1.0",
+  "private": true,
+  "author": "shinGangan",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^20.0.0",
+    "pnpm": ">=8.0.0",
+    "npm": "🚨:Please use pnpm instead."
+  },
+  "packageManager": "pnpm@8.10.0",
+  "scripts": {
+    "build": "pnpm -C $slide build",
+    "dev": "pnpm -C $slide dev",
+    "export": "pnpm -C $slide export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.44.0",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3"
+  }
+}
