@@ -11,6 +11,10 @@ module.exports = {
     "textlint-filter-rule-allowlist": true,
     // https://github.com/textlint-ja/textlint-rule-preset-ja-spacing
     "preset-ja-spacing": true,
+    eslint: {
+      configFile: "./eslint.config.js",
+      langs: ["js", "ts", "vue"],
+    },
   },
   filters: {},
 };
