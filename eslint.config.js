@@ -15,13 +15,20 @@ export default [
   {
     ignores: [
       "eslint.config.js",
-      "dist",
+      "**/dist/**/*",
       "**/node_modules/**/*",
       ".github",
       ".vscode",
+      ".textlintrc.js",
     ],
   },
   eslintConfig.configs.recommended,
   ...eslintrc.extends("plugin:vue/vue3-recommended"),
+  {
+    files: ["**/*.vue"],
+    rules: {
+      "vue/multi-word-component-names": "off",
+    },
+  },
   eslintConfigPrettier,
 ];
