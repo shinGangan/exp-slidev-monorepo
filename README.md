@@ -123,7 +123,7 @@ This repository is licensed under [the MIT License](./LICENSE).
 
 [zenn-logo]: https://img.shields.io/badge/Zenn-Show_article-0078D4.svg?style=plastic&logo=zenn
 [atricle-href]: https://zenn.dev/gangannikki
-[textlint-logo]: https://img.shields.io/badge/textlint-v13.4.x-2AE2F2?style=plastic&logo=textlint&colorA=F35776
+[textlint-logo]: https://img.shields.io/badge/textlint-v13.4.x-F35776?style=plastic&logo=textlint&colorA=2AE2F2
 [textlint-href]: https://textlint.github.io/
 [eslint-logo]: https://img.shields.io/badge/ESLint-v8.54.x-4B32C3?style=plastic&logo=eslint
 [eslint-href]: https://eslint.org/
