@@ -1,11 +1,10 @@
 # manage multiple slidev in pnpm workspace
 
-Manage multiple slides (used **slidev**) using pnpm workspace and deploy to **Cloudflare Pages**.
-
 <div  align="center" style="display: grid; grid-template-columns: repeat(1, 1fr)">
   <div style="display: grid; grid-template-rows: subgrid">
 
 [![Article][zenn-logo]][atricle-href]
+[![License][license-logo]][license-href]
 
   </div>
   <div style="display: grid; grid-template-rows: subgrid"> 
@@ -16,11 +15,22 @@ Manage multiple slides (used **slidev**) using pnpm workspace and deploy to **Cl
   </div>
 </div>
 
-## WIP: Article
+## About
+
+Manage multiple slides (used **slidev**) using pnpm workspace and deploy to **Cloudflare Pages**.
+
+### Draft: Article
 
 Look at [this article]().
 
-## Architecture
+### Draft: Slides
+
+|  スライド名   | 概要              |
+| :-----------: | :---------------- |
+| [スライド1]() | これはテストです  |
+| [スライド2]() | This is test page |
+
+### Architecture
 
 必要に応じて共通コンポーネント/レイアウト/アセットをimportする
 
@@ -63,6 +73,9 @@ graph LR
 ```
 
 ## Usage
+
+`target`は任意です。
+本サンプルでは`target = slide1` or `target = slide2`となります。
 
 ### Build
 
@@ -115,7 +128,7 @@ This repository is licensed under [the MIT License](./LICENSE).
 ## Author
 
 - GitHub: [@shinGangan](https://github.com/shinGangan)
-- X: [@gangan_nikki]()
+- X (formerly Twitter): [@gangan_nikki]()
 
 <!--
   Badges
@@ -129,3 +142,5 @@ This repository is licensed under [the MIT License](./LICENSE).
 [eslint-href]: https://eslint.org/
 [prettier-logo]: https://img.shields.io/badge/Prettier-v3.1.x-F7B93E?style=plastic&logo=prettier
 [prettier-href]: https://prettier.io/
+[license-logo]: https://img.shields.io/github/license/shinGangan/exp-slidev-monorepo?style=plastic
+[license-href]: ./LICENSE
