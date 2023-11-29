@@ -4,5 +4,6 @@
     "source.organizeImports": true,
     "source.fixAll.eslint": true
   },
-  "cSpell.userWords": ["textlint"]
+  "eslint.experimental.useFlatConfig": true,
+  "cSpell.userWords": ["textlint", "slidev"]
 }

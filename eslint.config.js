@@ -1,4 +1,3 @@
-"use strict";
 // @ts-check
 import { FlatCompat } from "@eslint/eslintrc";
 import eslintConfig from "@eslint/js";
@@ -10,7 +9,7 @@ const eslintrc = new FlatCompat({
   baseDirectory: dirname(fileURLToPath(import.meta.url)),
 });
 
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   {
     ignores: [
