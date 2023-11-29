@@ -15,6 +15,9 @@ module.exports = {
       configFile: "./eslint.config.js",
       langs: ["js", "ts", "vue"],
     },
+    prh: {
+      rulePaths: ["./textlint-prh.yml"],
+    },
   },
   filters: {},
 };

@@ -1,0 +1,8 @@
+version: 1
+rules:
+  - expected: JavaScript
+    patterns:
+      - "JavaScript"
+      - "ECMAScript"
+      - "JS"
+      - "ES"

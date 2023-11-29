@@ -2,6 +2,7 @@
 // @ts-check
 import { FlatCompat } from "@eslint/eslintrc";
 import eslintConfig from "@eslint/js";
+import eslintConfigPrettier from "eslint-config-prettier";
 import { fileURLToPath } from "node:url";
 import { dirname } from "pathe";
 
@@ -22,4 +23,5 @@ export default [
   },
   eslintConfig.configs.recommended,
   ...eslintrc.extends("plugin:vue/vue3-recommended"),
+  eslintConfigPrettier,
 ];
