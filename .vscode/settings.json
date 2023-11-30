@@ -5,5 +5,5 @@
     "source.fixAll.eslint": true
   },
   "eslint.experimental.useFlatConfig": true,
-  "cSpell.userWords": ["textlint", "slidev"]
+  "cSpell.userWords": ["textlint", "slidev", "scaffdog"]
 }
