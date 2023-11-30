@@ -14,6 +14,8 @@
   },
   "packageManager": "pnpm@8.10.0",
   "scripts": {
+    "scaffdog": "scaffdog -p configs/scaffdog",
+    "gen:scaffold": "scaffdog generate -p configs/scaffdog",
     "build": "pnpm -C $slide build",
     "dev": "pnpm -C $slide dev",
     "export": "pnpm -C $slide export",
@@ -39,6 +41,7 @@
     "pathe": "^1.1.1",
     "prettier": "^3.1.0",
     "prettier-plugin-organize-imports": "^3.2.4",
+    "scaffdog": "^3.0.0",
     "sudachi-synonyms-dictionary": "^12.0.0",
     "textlint": "^13.4.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
