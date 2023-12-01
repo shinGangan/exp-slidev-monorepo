@@ -1,1 +1,1 @@
-slide1/README.md
+docs/content/1.introduction/1.getting-started.md

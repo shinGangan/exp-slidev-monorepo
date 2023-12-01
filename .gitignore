@@ -8,3 +8,7 @@ components.d.ts
 
 # Cloudflare 
 **/.wrangler/**/*
+
+# Nuxt
+**/.nuxt/**/*
+**/.output/**/*
