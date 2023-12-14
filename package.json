@@ -20,7 +20,7 @@
     "dev": "pnpm -C $slide dev",
     "export": "pnpm -C $slide export",
     "predeploy:pages": "pnpm -C $slide build",
-    "deploy:pages": "pnpm -C $slide deploy",
+    "deploy:pages": "pnpm -C $slide deploy:pages",
     "lint:text": "textlint ${target}/*.md",
     "lint:text:fix": "textlint ${target}/*.md --fix",
     "lint:eslint": "eslint .",
