@@ -65,7 +65,7 @@ This file is created scaffdog.
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
-    "deploy": "wrangler pages deploy ./dist --project-name $npm_package_name"
+    "deploy:pages": "wrangler pages deploy ./dist --project-name $npm_package_name"
   }
 }
 ```
